@@ -34,7 +34,7 @@ export const theme = {
   styles: {
     root: {
       textAlign: 'left',
-      fontSize: ['1.5em', null, '3em'],
+      fontSize: ['1.5em', null, '2.5em'],
     },
     Slide: {
       display: 'block',
@@ -42,7 +42,8 @@ export const theme = {
       textAlign: 'left',
     },
     Image: {
-      maxHeight: '60vh',
+      maxHeight: '90vh',
+      maxWidth: '100vw',
       backgroundSize: 'contain',
     },
     ul: {
@@ -53,6 +54,9 @@ export const theme = {
     },
     h2: {
       textAlign: 'center',
+    },
+    li: {
+      fontSize: 32,
     },
     blockquote: {
       fontStyle: 'italic',
